@@ -16,6 +16,11 @@ h1 {
   color: #1A2232;
 }
 
+h3 {
+  text-align: center;
+  color: #1A2232;
+}
+
 .container {
   margin: auto;
   padding: 20px;
@@ -63,13 +68,16 @@ select:focus {
   transform: translate(-50%, 0);
 }
 
-.text-box select {
-  background-color: #313846;
+select {
+  background-color: #D8F6E7;
   border: 0;
-  color: #fff;
+  color: #1A2232;
   font-size: 12px;
   height: 30px;
-  width: 100%;
+  margin: 0 auto 20px;
+  display: block;
+  min-width: 260px;
+  max-width: 30%;
 }
 
 .text-box textarea {
